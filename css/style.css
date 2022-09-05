@@ -10,6 +10,17 @@
     /* min-height: 80px; */
 }
 
+.clearfix:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
 /* COLORI:
 
 blu hero: #265ee8
@@ -43,14 +54,21 @@ a{
     color: white;
 }
 
+h2{
+    font-size: 30px;
+    line-height: 35px;
+}
+
+h3{
+    font-size: 20px;
+}
+
 /* NAVBAR STYLE */
 header{
     background-color: #265ee8;
 }
 
 header nav{
-    width: 75%;
-    margin: 0 auto;
     min-height: 80px;
 }
 
@@ -127,3 +145,75 @@ header .btn.login:hover{
     background-color: #2c2f33;
     box-shadow: 0px 10px 15px 2px rgba(0, 0, 0, 0.2);
 }
+
+/* MAIN STYLE */
+
+main section{
+    min-height: 500px;
+}
+
+main section:nth-of-type(even){
+    background-color: #f6f6f6;
+}
+
+main svg{
+    display: block;
+}
+
+main .wave-1hkxOo.reverse{
+    transform: rotate(180deg);
+}
+
+section img{
+    width: 500px;
+}
+
+section .feature-description{
+    width: 300px;
+    padding: 0 60px;
+}
+
+section .feature-description p{
+    font-size: 10px;
+    padding-top: 20px;
+    line-height: 15px;
+}
+
+/* MAIN SECTION ---> LAST SECTION */
+
+.long-section .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.long-section img{
+    width: 100%;
+}
+
+.long-section p{
+    padding-top: 15px;
+}
+
+.long-section .meeting-description{
+    width: 800px;
+}
+
+.long-section .btn{
+    margin: 50px 0; 
+    background-color: #8fa1e1;
+}
+
+.long-section .btn .fa-solid.fa-down-long{
+    padding-right: 10px;
+}
+
+.long-section .btn:hover{
+    background-color: #8fa1e1a1;
+    box-shadow: 0px 10px 15px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* FOOTER STYLE */
