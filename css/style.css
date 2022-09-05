@@ -1,0 +1,19 @@
+/* UTILITY */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug{ /*DA ELIMINARE*/
+    border: 1px solid red;
+    min-height: 80px;
+}
+
+/* COLORI:
+
+blu hero: #3161e0
+nero testo e footer: #23272a
+onda: #f6f6f6
+bottone chiaro: #8fa1e1
+testo footer blu: #7389da */
