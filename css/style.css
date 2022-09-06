@@ -60,7 +60,23 @@ h2{
 }
 
 h3{
-    font-size: 20px;
+    font-size: 32px;
+}
+
+h4{
+    font-size: 25px;
+}
+
+span{
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+}
+
+ul a:hover{
+    text-decoration: underline;
 }
 
 /* NAVBAR STYLE */
@@ -74,15 +90,10 @@ header nav{
 
 header ul{
     min-width: 500px;
-    list-style: none;
 }
 
 .btn.login{
     color: #23272a;
-}
-
-header ul a:hover{
-    text-decoration: underline;
 }
 
 header .btn.login:hover{
@@ -155,6 +166,11 @@ main section:nth-of-type(even){
     background-color: #f6f6f6;
 }
 
+/* La seconda sezione non veniva ben centrata per colpa delle 'wave' sopra e sotto. Ho scelto di darle un bordo superiore della stessa altezza delle wave e stesso colore del background per centrarne il contenuto. */
+main section:nth-of-type(2){
+    border-top: 100px solid #f6f6f6;
+}
+
 main svg{
     display: block;
 }
@@ -163,16 +179,16 @@ main .wave-1hkxOo.reverse{
     transform: rotate(180deg);
 }
                     
-section img{
+main section img{
     width: 500px;
 }
 
-section .feature-description{
+main section .feature-description{
     width: 300px;
     padding: 0 5px;
 }
 
-section .feature-description p{
+main section .feature-description p{
     font-size: 16px;
     padding-top: 20px;
     line-height: 22px;
@@ -216,3 +232,77 @@ section .feature-description p{
 }
 
 /* FOOTER STYLE */
+
+footer{
+    min-height: 600px;
+    background-color: #23272a;
+    color: white;
+    border-top: 50px solid #f6f6f6;
+}
+
+.info-box{
+    align-items: flex-start;
+    padding: 50px 0 30px;
+    border-bottom: 2px solid #7389da;
+}
+
+.info-box div{
+    width: calc(100% / 6);
+}
+
+.info-box .social{
+    width: calc((100% / 6) * 2)
+}
+
+.info-box .social > *{
+    padding-top: 20px;
+}
+
+.info-box .social h3{
+    color: #7389da;
+}
+
+.info-box .social .country-flag{
+    width: 25px;
+}
+
+.info-box .social #language{
+    background-color: #23272a;
+    color: white;
+    border: transparent;
+    font-size: 18px;
+}
+
+.info-box .social .social-icons{
+    width: 50%;
+}
+
+footer .info-box ul > *{
+    padding-top: 20px;
+}
+
+footer .info-box ul:first-child{
+    color: #7389da;
+}
+
+/* footer tail style */
+.footer-tail{
+    padding: 30px 0 80px;
+}
+
+footer .footer-tail .btn{
+    background-color: #7389da;
+}
+
+footer .footer-tail .btn:hover{
+    background-color: #8fa1e1;
+    box-shadow: 0px 10px 15px 2px rgba(0, 0, 0, 0.2);
+}
+
+footer .footer-tail:first-child{
+    float: left;
+}
+
+footer .footer-tail .btn{
+    float: right;
+}
