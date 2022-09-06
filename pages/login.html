@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord - login</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="login-page">
+        <div class="login-container flex">
+            <div class="login-left flex">
+                <div class="welcome-back">
+                    <h4>Eccoti qui!</h4>
+                    <p>Siamo così felici di rivederti!</p>
+                </div>
+                <form method="GET">
+                    <label for="email-telephone">EMAIL O NUMERO DI TELEFONO<span>*</span></label>
+                    <input type="email" name="mail" required>
+                    <label for="password">PASSWORD<span>*</span></label>
+                    <input type="password" name="password" required>
+                    <a href="#">Hai dimenticato la password?</a>
+                    <input type="submit" value="Accedi">
+                </form>
+                <p>Ti serve un account? <a href="#">Registrati</a></p>
+            </div>
+            <div class="login-right">
+                <div class="wrapper flex">
+                    <img src="../img/qrcode.png" alt="qrcode">
+                    <h4>Accedi con codice QR</h4>
+                    <p>Scansionalo con l'<span>app mobile di Discord</span> per accedere istantaneamente.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -306,3 +306,129 @@ footer .footer-tail:first-child{
 footer .footer-tail .btn{
     float: right;
 }
+
+/* ----------------------------------------------------------------------------- */
+
+/* <-- LOGIN PAGE --> */
+
+/* COLORI LOGIN
+finestra di login - grigio scuro: #37393f
+*/
+
+:root{
+    --grigio-scuro: #37393f;
+    --blu-accedi: #5765f2;
+    --azzurro-registrati: #02aff4;
+    --rosso-asterisco: #ed4245;
+    --grigio-loginText: #b7bbbe;
+    --nero-input: #202225;
+}
+
+/* Non sono riuscito a usare la svg per il background */
+.login-page{
+    height: 100vh;
+    background-image: url("https://whatifgaming.com/wp-content/uploads/2021/11/Discord-Log-in-1.png");
+    background-size: cover;
+    position: relative;
+}
+
+.login-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--grigio-scuro);
+    height: 400px;
+    width: 780px;
+    align-items: flex-start;
+    color: var(--grigio-loginText);
+    border-radius: 10px;
+}
+
+.login-container h4{
+    color: white;
+}
+
+.login-left{
+    width: 60%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.login-left .welcome-back h4{
+    padding-bottom: 10px;
+}
+
+.login-left form{
+    width: 100%;
+    align-self: flex-start;
+    text-align: left;
+}
+
+.login-left form span{
+    color: var(--rosso-asterisco);
+}
+
+.login-left form input{
+    display: block;
+    width: 100%;
+    background-color: var(--nero-input);
+    border: none;
+    height: 40px;
+    padding-top: 10px;
+    border: 0;
+    padding: 0;
+    color: white;
+}
+
+.login-left form label{
+    font-size: 12px;
+    display: inline-block;
+    padding: 25px 0 10px;
+}
+
+.login-left a{
+    display: inline-block;
+    color: var(--azzurro-registrati);
+    font-size: 12px;
+    padding-top: 7px;
+}
+
+.login-left form input[type=submit]{
+    border: 0;
+    padding: 0;
+    color: white;
+    background-color: var(--blu-accedi);
+    border-radius: 2px;
+    margin-top: 25px;
+}
+
+.login-left > p{
+    align-self: flex-start;
+    font-size: 12px;
+}
+
+.login-right{
+    width: 40%;
+    text-align: center;
+    height: 100%;
+}
+
+.login-right .wrapper{
+    margin: 0 auto;
+    padding: 25px;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.login-right .wrapper img{
+    width: 180px;
+    border-radius: 10px;
+}
+
+.login-right .wrapper span{
+    font-weight: bolder;
+}
