@@ -55,8 +55,8 @@ a{
 }
 
 h2{
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 36px;
+    line-height: 45px;
 }
 
 h3{
@@ -132,16 +132,15 @@ header .btn.login:hover{
 }
 
 .inner-hero .buttons .btn.download .fa-solid.fa-down-long{
-    color: #23272a;
     padding-right: 10px;
 }
 
-.inner-hero .buttons .btn.download:hover{   /*L'icone non cambia colore all'hover!?*/
+.inner-hero .buttons .btn.download:hover{
     color: #8fa1e1;
     box-shadow: 0px 10px 15px 2px rgba(0, 0, 0, 0.2);
 }
 
-.inner-hero .buttons .btn.btn.open-in-browser:hover{
+.inner-hero .buttons .btn.open-in-browser:hover{
     background-color: #2c2f33;
     box-shadow: 0px 10px 15px 2px rgba(0, 0, 0, 0.2);
 }
@@ -163,20 +162,20 @@ main svg{
 main .wave-1hkxOo.reverse{
     transform: rotate(180deg);
 }
-
+                    
 section img{
     width: 500px;
 }
 
 section .feature-description{
     width: 300px;
-    padding: 0 60px;
+    padding: 0 5px;
 }
 
 section .feature-description p{
-    font-size: 10px;
+    font-size: 16px;
     padding-top: 20px;
-    line-height: 15px;
+    line-height: 22px;
 }
 
 /* MAIN SECTION ---> LAST SECTION */
